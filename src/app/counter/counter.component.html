@@ -1,0 +1,6 @@
+<h1>Counter: {{ (counter$ | async).counter }}</h1>
+<h1>Name: {{ (counter$ | async).name }}</h1>
+
+<button (click)="decrement()">Decrement</button>
+<button (click)="increment()">Increment</button>
+<button (click)="setName()">Set Name</button>
